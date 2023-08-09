@@ -22,6 +22,11 @@ The following - Sensors are generated from the Ripple Energy (https://rippleener
 <B>Sensors created<B>
 WIP
 
+
+
+
+
+
 <B>Sensors not created yet<B>
 
 API response:
