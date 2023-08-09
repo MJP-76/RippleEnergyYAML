@@ -15,13 +15,11 @@ rest:
   - resource: "https://rippleenergy.com/rest/member_data/KR8IOQKc_VujCBcL:arCYlJieSW1BmnjIvcdLB_9GPUQncKFgUtO3eGoBoRk"
     scan_interval: 300 # Five minutes
     sensor:
-      - name: Member Login
+      - name: Ripple Member Email
+        unique_id: ripple_member_email
         icon: mdi:email
         value_template: "{{ value_json.email }}"
 
-      - name: Ripple Project
-        icon: mdi:alphabetical-variant
-        value_template: "{{ value_json.generation_assets.name }}"
 
 
 
