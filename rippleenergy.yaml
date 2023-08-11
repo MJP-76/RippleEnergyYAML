@@ -1,6 +1,3 @@
-#"email": "YOUR_MEMEBER_LOGIN_EMAIL", 
-#"copyright_notice": "Not to publish or distribute. Only for personal use.",
-
 #API Response
 
 #{"email": "subscriptions@porterfamily.co.za", "copyright_notice": "Not to publish or distribute. Only for personal use.", "generation_assets": 
@@ -12,7 +9,7 @@
 #]}
 
 rest:
-  - resource: "https://rippleenergy.com/rest/member_data/YOUR-API-KEY-HERE"
+  - resource: !secret ripple_energy_api_key
     scan_interval: "300"
     sensor:
 # Member email
