@@ -10,14 +10,21 @@ Updated: 9th August, 2023
 You will require your Ripple Energy members API key as per available here: [Ripple Energy API Key](https://community.rippleenergy.com/new-feature-requests-yyqtfatb/post/ripple-api-yH0cTzuQ4GJMaYV?highlight=l8VWP51eyif7JlZ)
 
 # Installation
-1. Copy the rippleenergy.yaml file to /config/packages directory
+1. Copy the ripple_energy.yaml file to /config/packages directory
+2. Create a secrets.yaml file entry for ripple_energy_api_key with your API Key from Ripple as above
 3. Restart Home Assistant
 
 # Sensors
 The following - Sensors are generated from the Ripple Energy (https://rippleenergy.com/ ) API into Home Assistant
 
 <B>Working<B>
-- WIP
+- Project 1 - Graig Fatha
+- Project 2 - Kirk Hill
+- Project 3 - Derril Water
+- Project 4 - Project 4
+
+The following attributes are added to each of the above sensors 
+WIP
 
 <B>Work in progress<B>
 - API response:
