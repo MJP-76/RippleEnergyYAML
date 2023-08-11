@@ -63,12 +63,11 @@ rest:
           - "member_expected_annual_generation"
 
 
-##Projects
-      - name: Ripple Project4
-        icon: mdi:alphabetical-variant
-        value_template: "{{ value_json.generation_assets[0] }}"
 
-#To be sorted
+#      - name: Ripple Project4
+#        icon: mdi:alphabetical-variant
+#        value_template: "{{ value_json.generation_assets[0] }}"
+
 #      - name: Ripple project4 type
 #        icon: mdi:wind-turbine
 #        value_template: "{{ value_json.generation_assets[0].type }}"
