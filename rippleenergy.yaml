@@ -18,19 +18,9 @@ rest:
         value_template: "{{ value_json.email }}"
 
 #Projects
-      - name: Ripple project1 name
-        icon: mdi:alphabetical-variant
-        value_template: "{{ value_json.generation_assets[3].name }}"
-      - name: Ripple project2 name
-        icon: mdi:alphabetical-variant
-        value_template: "{{ value_json.generation_assets[2].name }}"
-      - name: Ripple project3 name
-        icon: mdi:alphabetical-variant
-        value_template: "{{ value_json.generation_assets[1].name }}"
-      - name: Ripple project4 name
+      - name: Ripple Project name
         icon: mdi:alphabetical-variant
         value_template: "{{ value_json.generation_assets[0].name }}"
-
 
 #To be sorted
       - name: Ripple project4 type
