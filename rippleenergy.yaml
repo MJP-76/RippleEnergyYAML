@@ -301,4 +301,4 @@ rest:
         value_template: "{{ value_json.generation_assets[0].generation.last_year.contains_estimate }}"
 
       - name: Ripple project4 generation_total_estimate
-        value_template: "{{ value_json.generation_assets[0].generation.total.contains_estimate }}""
+        value_template: "{{ value_json.generation_assets[0].generation.total.contains_estimate }}"
