@@ -14,7 +14,7 @@ rest:
         value_template: "{{ value_json.email }}"
 
 #Testing
-      - name: Ripple Graig Fatha
+      - name: Ripple Energy Graig Fatha
         icon: mdi:wind-turbine
         value_template: "Connected"
         json_attributes_path: "$.generation_assets[4]"
@@ -26,7 +26,7 @@ rest:
           - "member_capacity"
           - "member_expected_annual_generation"
 
-      - name: Ripple Kirk Hill
+      - name: Ripple Energy Kirk Hill
         icon: mdi:wind-turbine
         value_template: "Connected"
         json_attributes_path: "$.generation_assets[2]"
@@ -38,7 +38,7 @@ rest:
           - "member_capacity"
           - "member_expected_annual_generation"
 
-      - name: Ripple Derril Water
+      - name: Ripple Energy Derril Water
         icon: mdi:solar-power
         value_template: "Connected"
         json_attributes_path: "$.generation_assets[1]"
@@ -50,7 +50,7 @@ rest:
           - "member_capacity"
           - "member_expected_annual_generation"
 
-      - name: Ripple Project 4
+      - name: Ripple Energy Project 4
         icon: mdi:help
         value_template: "Connected"
         json_attributes_path: "$.generation_assets[0]"
