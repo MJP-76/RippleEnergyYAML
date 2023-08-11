@@ -31,7 +31,6 @@ The following attributes are added to each of the above sensors
 - "total_capacity"
 - "member_capacity"
 - "member_expected_annual_generation"
-WIP
 
 <B>Work in progress<B>
-All the other info ;)
+- All the other info ;)
